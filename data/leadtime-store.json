@@ -1,0 +1,374 @@
+{
+  "nextTripId": 2,
+  "nextQueueId": 2,
+  "trips": [
+    {
+      "id": 1,
+      "nopol": "B9284SXX",
+      "noFo": "3200123456",
+      "mobil": "6D JPM",
+      "vendor": "JPM",
+      "wa": "6285860458619",
+      "createdAt": "2026-09-27 23:19:18",
+      "securityIn": "2026-09-27 23:19:18",
+      "transportQueue": "2026-09-27 23:19:42",
+      "transportStart": "2026-09-27 23:20:28",
+      "transportEnd": "2026-09-27 23:20:40",
+      "transportStatus": "SELESAI",
+      "fgAssignment": "ADA",
+      "fgQueue": null,
+      "fgStart": null,
+      "fgEnd": null,
+      "fgStatus": null,
+      "bsAssignment": "ADA",
+      "bsQueue": null,
+      "bsStart": null,
+      "bsEnd": null,
+      "bsStatus": null,
+      "kasirAssignment": "ADA",
+      "kasirQueue": null,
+      "kasirStart": null,
+      "kasirEnd": null,
+      "kasirStatus": null,
+      "kasirLunas": null,
+      "overallStatus": "BERJALAN",
+      "notes": null
+    }
+  ],
+  "queues": [
+    {
+      "id": 1,
+      "tripId": 1,
+      "pos": "TRANSPORT",
+      "nopol": "B9284SXX",
+      "noFo": "3200123456",
+      "mobil": "6D JPM",
+      "queuedAt": "2026-09-27 23:19:42",
+      "status": "DONE",
+      "skipCount": 0
+    }
+  ],
+  "hours": [
+    {
+      "process": "TRANSPORT",
+      "dayOfWeek": 1,
+      "openTime": null,
+      "closeTime": null,
+      "is24h": true
+    },
+    {
+      "process": "SECURITY",
+      "dayOfWeek": 1,
+      "openTime": null,
+      "closeTime": null,
+      "is24h": true
+    },
+    {
+      "process": "TRANSPORT",
+      "dayOfWeek": 2,
+      "openTime": null,
+      "closeTime": null,
+      "is24h": true
+    },
+    {
+      "process": "SECURITY",
+      "dayOfWeek": 2,
+      "openTime": null,
+      "closeTime": null,
+      "is24h": true
+    },
+    {
+      "process": "TRANSPORT",
+      "dayOfWeek": 3,
+      "openTime": null,
+      "closeTime": null,
+      "is24h": true
+    },
+    {
+      "process": "SECURITY",
+      "dayOfWeek": 3,
+      "openTime": null,
+      "closeTime": null,
+      "is24h": true
+    },
+    {
+      "process": "TRANSPORT",
+      "dayOfWeek": 4,
+      "openTime": null,
+      "closeTime": null,
+      "is24h": true
+    },
+    {
+      "process": "SECURITY",
+      "dayOfWeek": 4,
+      "openTime": null,
+      "closeTime": null,
+      "is24h": true
+    },
+    {
+      "process": "TRANSPORT",
+      "dayOfWeek": 5,
+      "openTime": null,
+      "closeTime": null,
+      "is24h": true
+    },
+    {
+      "process": "SECURITY",
+      "dayOfWeek": 5,
+      "openTime": null,
+      "closeTime": null,
+      "is24h": true
+    },
+    {
+      "process": "TRANSPORT",
+      "dayOfWeek": 6,
+      "openTime": null,
+      "closeTime": null,
+      "is24h": true
+    },
+    {
+      "process": "SECURITY",
+      "dayOfWeek": 6,
+      "openTime": null,
+      "closeTime": null,
+      "is24h": true
+    },
+    {
+      "process": "TRANSPORT",
+      "dayOfWeek": 0,
+      "openTime": "06:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "SECURITY",
+      "dayOfWeek": 0,
+      "openTime": "06:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "FG",
+      "dayOfWeek": 1,
+      "openTime": "00:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "FG",
+      "dayOfWeek": 2,
+      "openTime": "06:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "FG",
+      "dayOfWeek": 3,
+      "openTime": "06:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "FG",
+      "dayOfWeek": 4,
+      "openTime": "06:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "FG",
+      "dayOfWeek": 5,
+      "openTime": "06:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "FG",
+      "dayOfWeek": 6,
+      "openTime": "06:00",
+      "closeTime": "20:00",
+      "is24h": false
+    },
+    {
+      "process": "FG",
+      "dayOfWeek": 0,
+      "openTime": "06:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "BS",
+      "dayOfWeek": 1,
+      "openTime": "00:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "BS",
+      "dayOfWeek": 2,
+      "openTime": "07:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "BS",
+      "dayOfWeek": 3,
+      "openTime": "07:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "BS",
+      "dayOfWeek": 4,
+      "openTime": "07:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "BS",
+      "dayOfWeek": 5,
+      "openTime": "07:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "BS",
+      "dayOfWeek": 6,
+      "openTime": "07:00",
+      "closeTime": "20:00",
+      "is24h": false
+    },
+    {
+      "process": "BS",
+      "dayOfWeek": 0,
+      "openTime": "06:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "KASIR",
+      "dayOfWeek": 1,
+      "openTime": "00:00",
+      "closeTime": "23:00",
+      "is24h": false
+    },
+    {
+      "process": "KASIR",
+      "dayOfWeek": 2,
+      "openTime": "06:30",
+      "closeTime": "22:00",
+      "is24h": false
+    },
+    {
+      "process": "KASIR",
+      "dayOfWeek": 3,
+      "openTime": "06:30",
+      "closeTime": "22:00",
+      "is24h": false
+    },
+    {
+      "process": "KASIR",
+      "dayOfWeek": 4,
+      "openTime": "06:30",
+      "closeTime": "22:00",
+      "is24h": false
+    },
+    {
+      "process": "KASIR",
+      "dayOfWeek": 5,
+      "openTime": "06:30",
+      "closeTime": "22:00",
+      "is24h": false
+    },
+    {
+      "process": "KASIR",
+      "dayOfWeek": 6,
+      "openTime": "06:30",
+      "closeTime": "20:00",
+      "is24h": false
+    },
+    {
+      "process": "KASIR",
+      "dayOfWeek": 0,
+      "openTime": "06:00",
+      "closeTime": "23:00",
+      "is24h": false
+    }
+  ],
+  "akses": [
+    {
+      "nik": "91130199",
+      "nama": "HAFID MUKOWWI",
+      "pos": "TRANSPORT",
+      "pin": "6789"
+    },
+    {
+      "nik": "91130001",
+      "nama": "PETUGAS FG",
+      "pos": "FG",
+      "pin": "1111"
+    },
+    {
+      "nik": "91130002",
+      "nama": "PETUGAS BS",
+      "pos": "BS",
+      "pin": "2222"
+    },
+    {
+      "nik": "91130003",
+      "nama": "PETUGAS KASIR",
+      "pos": "KASIR",
+      "pin": "3333"
+    }
+  ],
+  "equipment": [
+    {
+      "nopol": "B9284SXX",
+      "mobil": "6D JPM",
+      "vendor": "JPM",
+      "wa": "6285860458619"
+    },
+    {
+      "nopol": "B1234SAL",
+      "mobil": "SAL-DEMO",
+      "vendor": "MAJR",
+      "wa": "6281234567890"
+    },
+    {
+      "nopol": "B9150UCY",
+      "mobil": "BINTARO-TRAC003",
+      "vendor": "DKS",
+      "wa": "6285693229085"
+    },
+    {
+      "nopol": "B9335UCZ",
+      "mobil": "BINTARO-TRAC008",
+      "vendor": "DKS",
+      "wa": "6285716298360"
+    },
+    {
+      "nopol": "B9373SXS",
+      "mobil": "SAL-MAJR001",
+      "vendor": "MAJR",
+      "wa": "6283129217890"
+    },
+    {
+      "nopol": "B9369SXS",
+      "mobil": "SAL-MAJR002",
+      "vendor": "MAJR",
+      "wa": "6289655898055"
+    },
+    {
+      "nopol": "B9095UCY",
+      "mobil": "SAL-TRAC003",
+      "vendor": "JPM",
+      "wa": "6285811160395"
+    },
+    {
+      "nopol": "B9214VCD",
+      "mobil": "SAL-TTP001",
+      "vendor": "TTP",
+      "wa": "6281400792756"
+    }
+  ]
+}

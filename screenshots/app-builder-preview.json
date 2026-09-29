@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "LEADTIME",
+      "hasCanvas": false,
+      "bodyTextLen": 1214,
+      "bodyTextHash": "83adcda1bdeb618cfdfcab2aa673df6d7554524d27c415aade7e44f2ba45ad3d",
+      "bodyTextPrefix": "DIVISI TRANSPORT · DC LEADTIME Monitoring tugas transport DC CON",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "LEADTIME",
+      "hasCanvas": false,
+      "bodyTextLen": 1200,
+      "bodyTextHash": "25a0432e6b3e3ec36196e8dc813dba610976e6ef92de1118cc28d4b5eda5e0c2",
+      "bodyTextPrefix": "DIVISI TRANSPORT · DC LEADTIME Monitoring tugas transport DC Del",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND NOTE: no custom public/og.jpg — the platform will serve the og.grok.me placeholder. Custom cards are the default for games of every kind (DOM board/word games included), whimsical apps, creative tools, and brand-forward pages — only plain utilities (converters, CRUD trackers, admin dashboards) keep the placeholder. If this app is not a plain utility, finish the brand-asset pass per /workspace/.grok/skills/og/SKILL.md."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

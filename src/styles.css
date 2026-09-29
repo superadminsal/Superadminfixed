@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f7f1e4;
+  --color-bg-deep: #eadfb8;
+  --color-surface: #fffdf6;
+  --color-surface-2: #f3ead0;
+  --color-ink: #2a2620;
+  --color-fg: #2a2620;
+  --color-muted: #6f6758;
+  --color-subtle: #8f8674;
+  --color-accent: #c4a035;
+  --color-accent-fg: #fffdf6;
+  --color-accent-soft: #f3e7a8;
+  --color-border: #e4d9b4;
+  --color-border-strong: #cfc091;
+  --color-ok: #2f6b52;
+  --color-ok-fg: #f3fbf7;
+  --color-warn: #8a4f16;
+  --color-warn-fg: #fff7ed;
+  --color-danger: #8f2d45;
+  --color-danger-fg: #fff5f6;
+
+  --font-sans: "Outfit", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Fraunces", "Times New Roman", serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-2xl: 28px;
+
+  --shadow-ticket:
+    0 0 0 1px rgba(42, 38, 32, 0.06),
+    0 1px 2px -1px rgba(42, 38, 32, 0.06),
+    0 10px 28px -18px rgba(42, 38, 32, 0.28);
+}
+
+[data-pos="TRANSPORT"] {
+  --color-bg: #faf4dc;
+  --color-bg-deep: #f0e4b8;
+  --color-surface: #fffbeb;
+  --color-surface-2: #f7efc8;
+  --color-ink: #3d3420;
+  --color-fg: #3d3420;
+  --color-muted: #7a6b3d;
+  --color-subtle: #9a8a55;
+  --color-accent: #c4a035;
+  --color-accent-fg: #fffbeb;
+  --color-accent-soft: #f3e7a8;
+  --color-border: #eadc9e;
+}
+
+[data-pos="FG"] {
+  --color-bg: #e7f0f8;
+  --color-bg-deep: #d2e2f0;
+  --color-surface: #f5f9fd;
+  --color-surface-2: #dceaf5;
+  --color-ink: #1e3348;
+  --color-fg: #1e3348;
+  --color-muted: #4d6780;
+  --color-subtle: #6d8499;
+  --color-accent: #4a7aa8;
+  --color-accent-fg: #f5f9fd;
+  --color-accent-soft: #c9dced;
+  --color-border: #c5d6e6;
+}
+
+[data-pos="BS"] {
+  --color-bg: #e6f4ea;
+  --color-bg-deep: #cfe6d6;
+  --color-surface: #f4fbf6;
+  --color-surface-2: #d8eedf;
+  --color-ink: #1e3a28;
+  --color-fg: #1e3a28;
+  --color-muted: #4a7358;
+  --color-subtle: #6a9176;
+  --color-accent: #3f8a5c;
+  --color-accent-fg: #f4fbf6;
+  --color-accent-soft: #c5e6d0;
+  --color-border: #c3ddcc;
+}
+
+[data-pos="KASIR"] {
+  --color-bg: #f8e8ef;
+  --color-bg-deep: #efd0dc;
+  --color-surface: #fdf6f9;
+  --color-surface-2: #f3d7e3;
+  --color-ink: #4a2434;
+  --color-fg: #4a2434;
+  --color-muted: #865064;
+  --color-subtle: #a07284;
+  --color-accent: #c45b7a;
+  --color-accent-fg: #fdf6f9;
+  --color-accent-soft: #f0c9d7;
+  --color-border: #e8c5d3;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    line-height: 1.5;
+    background: var(--color-bg);
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    font-family: var(--font-display);
+    letter-spacing: -0.03em;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
