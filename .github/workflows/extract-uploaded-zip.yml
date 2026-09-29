@@ -1,0 +1,37 @@
+name: Extract uploaded project ZIP
+
+on:
+  push:
+    paths:
+      - 'LEADTIME-Vercel-Fix-HP.zip'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract project ZIP
+        run: |
+          test -f LEADTIME-Vercel-Fix-HP.zip
+          rm -rf .extract-tmp
+          mkdir .extract-tmp
+          unzip -q -o LEADTIME-Vercel-Fix-HP.zip -d .extract-tmp
+          cp -a .extract-tmp/. .
+          rm -rf .extract-tmp
+          rm -f LEADTIME-Vercel-Fix-HP.zip
+          rm -rf .vercel
+
+      - name: Commit extracted project
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m 'Extract Leadtime project from mobile upload'
+          git push
